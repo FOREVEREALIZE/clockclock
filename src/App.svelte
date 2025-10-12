@@ -18,16 +18,16 @@
 </script>
 
 <div class="w-screen">
-    <main class="h-screen flex flex-row items-center justify-center bg-neutral-950 gap-8 px-20">
-        <div class="flex flex-row border-4 border-white/20 w-1/3 gap-4 p-4">
+    <main class="h-screen flex md:flex-row flex-col items-center justify-center bg-neutral-950 gap-8 md:px-20 px-10">
+        <div class="flex flex-row border-4 border-white/20 md:w-1/3 w-full gap-4 p-4">
             <ClockDigit n={date[0]}/>
             <ClockDigit n={date[1]}/>
         </div>
-        <div class="flex flex-row border-4 border-white/20 w-1/3 gap-4 p-4">
+        <div class="flex flex-row border-4 border-white/20 md:w-1/3 w-full gap-4 p-4">
             <ClockDigit n={date[2]}/>
             <ClockDigit n={date[3]}/>
         </div>
-        <div class="flex flex-row border-4 border-white/20 w-1/3 gap-4 p-4">
+        <div class="flex flex-row border-4 border-white/20 md:w-1/3 w-full gap-4 p-4">
             <ClockDigit n={date[4]}/>
             <ClockDigit n={date[5]}/>
         </div>
